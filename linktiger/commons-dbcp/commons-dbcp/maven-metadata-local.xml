@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>commons-dbcp</groupId>
+  <artifactId>commons-dbcp</artifactId>
+  <version>1.4-redwerk</version>
+  <versioning>
+    <versions>
+      <version>1.4-redwerk</version>
+    </versions>
+    <lastUpdated>20110412151445</lastUpdated>
+  </versioning>
+</metadata>

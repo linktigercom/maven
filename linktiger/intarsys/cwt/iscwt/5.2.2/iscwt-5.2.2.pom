@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>intarsys.cwt</groupId>
+	<artifactId>iscwt</artifactId>
+	<name>iscwt</name>
+	<version>5.2.2</version>
+	<repositories>
+		<repository>
+			<id>jboss</id>
+			<name>jboss Mirror of http://repository.jboss.org/maven2</name>
+		  <url>http://repository.jboss.org/maven2 </url>
+	  </repository>
+	</repositories>
+	<build>
+		<plugins>
+		<plugin>
+			<artifactId>maven-compiler-plugin</artifactId>
+			<configuration>
+				<optimize>true</optimize>
+				<source>1.5</source>
+				<target>1.5</target>
+			</configuration>
+		</plugin>
+	</plugins>
+    </build>
+    <dependencies>
+	    <dependency>
+		    <groupId>intarsys.runtime</groupId>
+		    <artifactId>isrt</artifactId>
+		   <version>4.7.2</version> 
+	    </dependency>
+    </dependencies>
+    <distributionManagement>
+	    <!-- use the following if you're not using a snapshot version. -->
+	    <repository>
+		    <id>repo</id>
+		    <name>JPOD</name>
+		    <url>scp://svn.apache.org/viewvc/incubator/pdfbox/jempbox/trunk/</url>
+	    </repository>
+    </distributionManagement>
+</project>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+  <groupId>maxmindgeoip</groupId>
+  <artifactId>maxmindgeoip</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <lastUpdated>20080708142205</lastUpdated>
+  </versioning>
+</metadata>

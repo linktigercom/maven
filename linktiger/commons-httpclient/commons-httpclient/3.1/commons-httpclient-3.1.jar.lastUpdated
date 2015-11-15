@@ -1,0 +1,9 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Sat Jul 20 14:38:17 EDT 2013
+http\://repo.maven.apache.org/maven2/.lastUpdated=1374345497175
+http\://clojars.org/repo/.lastUpdated=1374345496347
+http\://oss.sonatype.org/content/repositories/releases/.error=
+http\://oss.sonatype.org/content/repositories/releases/.lastUpdated=1374345496205
+http\://clojars.org/repo/.error=
+default-s3\://maven.medrium.com/milestone/.lastUpdated=1374345495702
+s3\://maven.medrium.com/milestone/.error=Could not transfer artifact commons-httpclient\:commons-httpclient\:jar\:3.1 from/to medriumrepository-milestone (s3\://maven.medrium.com/milestone)\: No connector available to access repository medriumrepository-milestone (s3\://maven.medrium.com/milestone) of type default using the available factories WagonRepositoryConnectorFactory
